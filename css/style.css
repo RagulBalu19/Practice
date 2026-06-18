@@ -3,4 +3,13 @@
 .main-container {
    background-image: url("https://ik.imagekit.io/ix5gb5ztv/Tourism%20Tailwind%20Css/sea-ocean?updatedAt=1781769382204");
    ;
+
+}
+.pmain-conatiner {
+   background-image: url("https://ik.imagekit.io/ix5gb5ztv/Tourism%20Tailwind%20Css/taj-mahal?updatedAt=1781769422086");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 626px;
+   width: 300px ;
+
 }
