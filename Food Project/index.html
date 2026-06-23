@@ -8,17 +8,204 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Nav Bar start -->
+     <nav>
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-2 pb-3">
+                <div class="grid grid-cols-2">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-munch-img.png" alt="" class="w-[90px]">
+                </div>
+                <ul class="hidden lg:flex justify-center items-center text-nowrap gap-5">
+                    <li><a href="">Why Chose us?</a></li>
+                    <li><a href="">Explore Menu</a></li>
+                    <li><a href="">Delivery&Payment</a></li>
+                    <li><a href="">Follow Us</a></li>
+                </ul>
+                <div class="lg:hidden block flex justify-end items-center">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-menu-icon lucide-menu">
+                    <path d="M4 5h16"/>
+                    <path d="M4 12h16"/>
+                    <path d="M4 19h16"/>
+                </svg>
+                </div>
+            </div>
+        </div>
+     </nav>
+    <!-- Nav Bar end -->
+    <!-- Hero Section start -->
+     <section>
+        <div class="2xl:container mx-auto bg-[url('https://ik.imagekit.io/ix5gb5ztv/Tourism%20Tailwind%20Css/5eb215885f625213624834267b067a33.webp')] h-screen bg-no-repeat bg-cover bg-center">
+            <div class="w-[90%] mx-auto flex flex-col justify-center items-center h-screen ">
+                <div class="flex flex-col  items-center gap-5">
+                    <h1 class="text-[28px] font-[700] text-white leading-[34px] text-center">Get Delicious Food Anytime</h1>
+                    <p class="text-white">Eat Smart & Healthy</p>
+                    <div class=" flex gap-5">
+                        <button class="bg-yellow-400 text-white px-3 py-1 rounded-2xl">View Menu</button>
+                        <button class="border border-yellow-400 text-black px-3 py-1 rounded-2xl">Order Now</button>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section end -->
+
     <div class="2xl:container mx-auto">
         <div class="w-[90%] mx-auto">
             <!-- why choose us ? start -->
-             <section>
+             <section class="py-10" id="whty">
                 <div>
                     <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Why Choose Us ?</h1>
-                    <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, velit?</p>
+                    <p class="text-slate-400">We use both original recipes and classic versions of famous food items.</p>
                 </div>
-                
              </section>
             <!-- why choose us ? end -->
+            <!-- what choose us card start -->
+             <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 pt-5 ">
+                <!-- card 1 -->
+                <div class="rounded-xl bg-white shadow-2xl space-y-2 mx-auto p-8">
+                    <div class="flex justify-center">
+                        <img src="" alt="Food Service" class="mx-auto">
+                    </div>
+                    
+                    <h1 class= "text-center">Food Service</h1>
+                    <p class="text-lg text-slate-500 text-center">Experience fine finning at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than.</p>
+                    <div class="flex justify-center gap-5">
+                        <button class="bg-green-500 rounded-2xl px-3 py-1 text-white">search</button>
+                        <button class="bg-slate-300 rounded-2xl px-3 py-1 border border-red-500">cancel</button>
+                    </div>
+                    
+                </div>
+                <!-- card 2 -->
+                <div class="rounded-xl bg-white shadow-2xl space-y-2 mx-auto p-8">
+                    <div class="flex justify-center">
+                        <img src="" alt="Food Service" class="mx-auto">
+                    </div>
+                    
+                    <h1 class= "text-center">Food Service</h1>
+                    <p class="text-lg text-slate-500 text-center">Experience fine finning at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than.</p>
+                    <div class="flex justify-center gap-5">
+                        <button class="bg-green-500 rounded-2xl px-3 py-1 text-white">search</button>
+                        <button class="bg-slate-300 rounded-2xl px-3 py-1 border border-red-500">cancel</button>
+                    </div>
+                    
+                </div>
+                <!-- Card 3 -->
+                <div class="rounded-xl bg-white shadow-2xl space-y-2 mx-auto p-8">
+                    <div class="flex justify-center">
+                        <img src="" alt="Food Service" class="mx-auto">
+                    </div>
+                    
+                    <h1 class= "text-center">Food Service</h1>
+                    <p class="text-lg text-slate-500 text-center">Experience fine finning at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than.</p>
+                    <div class="flex justify-center gap-5">
+                        <button class="bg-green-500 rounded-2xl px-3 py-1 text-white">search</button>
+                        <button class="bg-slate-300 rounded-2xl px-3 py-1 border border-red-500">cancel</button>
+                    </div>
+                    
+                </div>
+                
+             </div>
+            <!-- what choose us card end -->
+
+            <!-- Menu Cards start -->
+             <section class="py-10">
+                <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Explore Menu</h1>
+             </section>
+             <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- cards 1 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Non Vegetarian Briyani</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 2 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-grilled-seafood-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Grilled Sea Food</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 3 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-hyderabadi-biryani-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Hyderabadi Briyani</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 4 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-veg-starters-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Veg Starters</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 5 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-mushroom-noodles-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Mushroom Noodles</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 6 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-gluten-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Gluten</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 7 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-coffee-bourbon-img.png" alt="Non-Veg card" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Coffe Bourbon</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+                <!-- cards 8 -->
+                <div class="shadow-2xl rounded-2xl p-5">
+                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-soup-img.png" alt="Soup" class="rounded-2xl">
+                    <h1 class="text-[28px] pt-5">Soup</h1>
+                    <p class="text-yellow-500 hover:text-blue-600 hover:underline">View All ➡️</p>
+                </div>
+             </div>
+            <!-- Menu Cards end -->
+            <!-- Fresh Health video start -->
+             <section class="py-10">
+                <div class="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 gap-5">
+                    <div>
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/healthy-food-plate-img.png" alt="health img">
+                    </div>
+                    <div class="col-span-2 flex flex-col justify-center gap-5">
+                        <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                        <p class="text-slate-400">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+                        <button class="bg-[#C9AC00] px-3 py-2 w-fit rounded-xl">Watch Video</button>
+                    </div>
+                </div>
+             </section>
+            <!-- Fresh Health video end -->
+
+            <!-- Payment method start -->
+             <section class="py-10">
+                <div class="grid grid-cols-1 md:grid-cols-3">
+                    <div class="col-span-2 flex flex-col justify-center gap-5">
+                        <h1 class="text-[28px]  text-[#183b56] font-[700] leading-[34px]">Delivery and Payment Method</h1>
+                        <p class="text-slate-400">Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
+                        <button class="bg-[#c9ac00] px-3 py-2 rounded-xl w-fit">Order Now</button>
+                        <div class="flex gap-5 h-[50px] pt-1">
+                            <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png" alt="">
+                            <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/master-card-img.png" alt="">
+                            <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/paypal-card-img.png" alt="">
+                            <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/american-express-img.png" alt="" >
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/delivery-payment-section-img.png" alt="" class="h-64">
+                    </div>
+                </div>
+             </section>
+            <!-- Payment method end -->
         </div>
     </div>
 </body>
